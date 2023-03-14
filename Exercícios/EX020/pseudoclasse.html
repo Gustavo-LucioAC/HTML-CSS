@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classe</title>
+    <style>
+        div {
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+            color: aliceblue;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .bl1:hover {
+            background-color: greenyellow;
+        }
+
+        .bl2:hover {
+            background-color: rgb(238, 255, 0);
+        }
+
+        .bl3:hover {
+            background-color: red;
+        }
+
+        .texto1:hover {
+            color: blue;
+            font-weight: 900;
+        }
+
+        .divv>p {
+            display: none;
+        }
+
+        .divv:hover>p {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bl1">1</div>
+    <div class="bl2">2</div>
+    <div class="bl3">3</div>
+    <p class="texto1">Aqui extite um TEXTO escondido</p>
+    <div class="divv">
+        <p class="texto2">Oh eu Aqui</p>
+    </div>
+</body>
+
+</html>
